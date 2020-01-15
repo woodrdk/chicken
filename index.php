@@ -20,7 +20,7 @@ $f3 = Base::instance();
 // define a default route
 $f3 -> route('GET /', function(){
     $view = new Template();
-    echo $view->render('views/home.html');
+    echo $view->render('views/allAboutChickens.html');
 
 });
 // Run Fat Free
